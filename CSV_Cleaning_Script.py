@@ -2,7 +2,7 @@
 import sys, os
 import csv
 
-print('welcome to my data cleaning script')
+print('welcome to my data cleaning script prepared by Johanes Petro during python training at OpenmapDevelopmentTanzania')
 myfile = open('/home/johanes/Pycharm_Github/JCL_clients_tagging.csv')
 
 reader = csv.reader(myfile, delimiter = ';')
